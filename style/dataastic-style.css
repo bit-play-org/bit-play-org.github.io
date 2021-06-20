@@ -1,0 +1,267 @@
+@charset "ISO-8859-1";
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+@import url(https://fonts.googleapis.com/css?family=serif);
+body{
+  		/* background-image:url("../images/background-tile-light.png"); */
+  		/* background-color: #F6F7E0; */
+  		font-family: Merriweather;
+  	}
+.img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}  
+  	.datastic-brand-name{
+  		
+  		font-size : 22px;
+  		/* color: #7F191C; */
+  		color : #ddebe3;
+  		
+  		font-weight: bolder;
+  		line-height: 30px;
+  		vertical-align: bottom;
+  	
+  	}
+  	.top-bar{
+  		font-size : 14px; 
+  		background-color: #2b4839; 
+  		background-image: linear-gradient(#2b4839, #afcfbf);
+  	}
+  	.menu-item{
+  		
+  		font-weight: normal;
+  		color: #FFFFFF !important;
+  	}
+  	
+  	.dataastic-sub-menu{
+  		/* background-color: #2b483990; */
+  		/* background-color : #afcfbf; */
+  		opacity: 80%;
+  		background-image: linear-gradient(#afcfbf, #2b4839);
+  	}
+  	
+  	.sub-menu-item{
+  		
+  		font-size : 12px;
+  		color: #FFFFFF !important;
+  	}
+  	
+  	.sub-menu-item:hover{
+  		font-size : 12px;
+  		color: #737075 !important;
+  	}
+  	
+  .social-networking-links{
+  		
+  		top: 0; 
+  		float: right;
+  		font-size : 12px;
+  		font-weight : bolder;
+  		
+  		color: #2b4839;
+  		
+  		border-bottom: 2px solid #afcfbf;
+  		background-color: #afcfbf;
+  		padding-right: 10px;
+  		padding-left: 10px;
+  		padding-top: 2px;
+  		padding-bottom : 2px;
+  		margin-right: 10px;
+  		
+  		position: fixed;
+  		margin-top: 58px;
+  		right : 0px;
+  }
+  
+  .social-networking-links span{
+  	color : #b3b3b3;
+  	padding-right: 3px;
+  	padding-left : 3px;
+  }
+  
+  .social-networking-links img{
+  	width: 20px; 
+  	height : 20px;
+  	margin-right : 5px;
+  }
+  
+  	.dataastic-page-banner{
+  		margin-top : 58px; 
+  		background-size: 100%; 
+  		background-repeat: no-repeat;
+  		border-radius: 0;
+  	}
+  	.banner-heading{
+  		text-align: left;
+  		/* color: #7F191C90; */
+  		color: #2b4839;
+  		font-weight: bolder;
+  		text-shadow: 12px 12px 12px #2b4839;
+  		width : 25vw;
+  		padding: 10px; 
+  		
+  		border-radius: 15px;
+  	}
+  	
+  	.banner-heading-light{
+  		text-align: left;
+  		/* color: #7F191C90; */
+  		color: #FFFFFF;
+  		font-weight: bolder;
+  		font-size: 70px;
+  	}
+  	
+  	h2.banner-heading-light{
+  		text-align: left;
+  		/* color: #7F191C90; */
+  		color: #FFFFFF;
+  		font-weight: bolder;
+  		font-size: 48px;
+  	}
+  	
+  	.banner-text{
+  		text-align: left;
+  		/* color: #7F191C90; */
+  		
+  		color: #2b483990;
+  		font-weight: bolder;
+  		font-size: 16px;
+  		font-style: italic;
+  	}
+  	
+  	.banner-text-light{
+  		text-align: left;
+  		/* color: #7F191C90; */
+  		
+  		color: #FFFFFF;
+  		font-weight: bolder;
+  		font-size: 16px;
+  		font-style: italic;
+  	}
+  
+  	.row-header{
+  		font-weight: bolder;
+  		font-size: 20px;
+  		margin-top : 20px;
+  		color: #2b4839;
+  		border-left: 8px solid #2b4839;
+  		/* box-shadow: 4px 0px #2b4839; */
+  		padding-left : 5px;
+  		text-shadow: 8px 8px 12px #2b4839;
+  	}
+  	
+  	.dataastic-section{
+  		border-bottom : 1px dashed #2b4839;
+  		/* padding-left : 15px;
+  		padding-right : 15px; */
+   	}
+  	
+  	.dataastic-section-header{
+  		font-size: 14px;
+  		padding-top: 10px;
+  		/* font-weight: bold; */
+  		color: #2b4839;
+  	}
+  	.dataastic-article{
+  	
+  	
+  	}
+  	.dataastic-article-contents ul.dataastic-article-list{
+  		font-size : 13px;  	
+  		color: #2b4839 !important;
+  	}
+  	.dataastic-article img.icon{
+  		box-shadow: 4px 4px 15px 8px #2b483954;  
+  		border-radius: 10px;	
+  		margin-right : 10px; 
+  		float : left;
+  	}
+  	
+  	.dataastic-article .tableau-program-line-view-img{
+  		box-shadow: 12px 12px 12px #2b483954;
+  		border-radius: 8px;
+  	}
+  	.dataastic-article span{
+  		background-repeat: no-repeat;
+  		background-position: 0 0; 
+  		background-size: 50px; 	
+  	}
+  	.dataastic-article span.dataastic-article-icon-header{
+  		background-repeat: no-repeat;
+  		background-position: 0 0; 
+  		background-size: 50px; 
+  		padding-left: 60px;
+  	}
+  	
+  	.dataastic-article .dataastic-article-header {
+  		
+  		font-weight: bolder;
+  		font-size: 18px;
+  	}
+  
+  	.dataastic-article .dataastic-article-subject {
+  		font-size: 13px;
+  		font-weight: bolder;
+  		color: #737075;  	
+  		margin-top: 10px;
+  	}
+  
+  	.dataastic-article .dataastic-article-contents{
+  		font-size: 12px;  		
+  		font-family: Merriweather;
+  		/* font-family: "Benton Sans Book",Helvetica,sans-serif; */
+  	}
+  	
+  	.dataastic-article ul.dataastic-article-list li{
+  		font-size: 11px;
+  		color: #737075;
+  		font-family: Merriweather;
+  	}
+  	
+  	.dataastic-article .dataastic-article-contents a.dataastic-article-readmore{
+  		text-decoration: none;
+  		font-size: 11px;
+  		font-family: Merriweather;
+  		/* font-family: "Benton Sans Book",Helvetica,sans-serif; */
+  		font-weight: bold;  	
+  		color: #737075;	
+  	}
+  
+  
+  	.dataastic-article .dataastic-article-contents a.contact-reference{
+		animation:blinking 2s infinite;
+		/* font-size: 20px; */
+	}
+	@keyframes blinking{
+		0%{   color: #2b4839;   }
+		47%{   color: #737075; }
+		62%{   color: #000; }
+		97%{   color: transparent; }
+		100%{  color: transparent;   }
+	}
+  
+  
+  
+  	.footer-menu{
+  		background-color: #2b483978;   		
+  		color : #2B4839;
+  		font-size: 16px !important;
+  	}
+  	
+  	.dataastic-footer-copyright{
+  	 	background-color: #2B4839;
+  	 	color : #FFFFFF;
+  	 	font-size: 13px;
+  	}
+  	.footer-menu ul.footer-menu-item li a{
+  		color : #2B4839;
+  		font-style: italic;
+  		font-size: 13px;
+  	}
+  	
+  	.footer-copyright a{
+  		color : #FFFFFF;
+  		font-style: italic;  		
+  	}
+  	
+  	

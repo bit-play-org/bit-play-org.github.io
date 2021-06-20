@@ -1,0 +1,157 @@
+ <!-- Footer Links -->
+	  <div class="container text-center text-md-left">
+	
+	    <!-- Grid row -->
+	    <div class="row">
+	
+	      <!-- Grid column -->
+	      <div class="col-md-3 mx-auto">
+	
+	        <!-- Links -->
+	        <h5 class="font-weight-bold mt-3 mb-4">Main</h5>
+	
+	        <ul class="list-unstyled footer-menu-item">
+	          <li>
+	            <a title = "Dataastic Home" href="./index.html">Home</a>
+	          </li>
+	          <li>
+	            <a title="Tableau Training Program" href="./tableau-program.html">Tableau Training Programs</a>
+	          </li>
+	          <li>
+	            <a title = "Why Dataastic" href="./why-dataastic.html">Why Dataastic</a>
+	          </li>
+	          <li>
+	            <a title = "About Dataastic" href="./about-dataastic.html">About Dataastic</a>
+	          </li>
+	          <li>
+	            <a title = "Tableau Blogs" href="./dataastic-blogs.html">Blogs</a>
+	          </li>
+	        </ul>
+	
+	      </div>
+	      <!-- Grid column -->
+	
+	      <hr class="clearfix w-100 d-md-none">
+	
+	      <!-- Grid column -->
+	      <div class="col-md-4 mx-auto">
+	
+	        <!-- Links -->
+	        <h5 class="font-weight-bold  mt-3 mb-4">Tableau Training Programs</h5>
+	
+			<ul class="list-unstyled footer-menu-item">
+	          <li>
+	            <a title="Tableau Student Program" href="./tableau-student-program.html">Tableau Student Program</a>
+	          </li>
+	          <li>
+	            <a title="Tableau Graduate Program" href="./graduate-tableau-program.html">Tableau Graduate Program</a>
+	          </li>
+	          <li>
+	            <a title="Tableau Engineers Program" href="./engineers-tableau-program.html">Tableau Engineers Program</a>
+	          </li>
+	          <li>
+	            <a title="Tableau Certification Program" href="./tableau-certification-program.html">Tableau Certification Program</a>
+	          </li>
+	         
+	        </ul>
+	
+	      </div>
+	      <!-- Grid column -->
+	
+	      <hr class="clearfix w-100 d-md-none">
+	
+	      <!-- Grid column -->
+	      <div class="col-md-3 mx-auto">
+	
+	        <!-- Links -->
+	        <h5 class="font-weight-bold  mt-3 mb-4">Blogs</h5>
+	
+	        <ul class="list-unstyled footer-menu-item">
+	          <li>
+	            <a title="Evolution Of Reporting Tools" href="./evolution-of-reporting-tool-blog.html">Evolution Of Reporting Tools</a>
+	          </li>
+	          <li>
+	            <a title="Excelling Tableau" href="./excelling-tableau-blog.html">Excelling Tableau</a>
+	          </li>
+	          <!-- <li>
+	            <a title="Tableau Brush" href="./tableau-brush-blog.html">Tableau Brush</a>
+	          </li> -->
+	          <li>
+	            <a title="Embedding Domain Into Technology" href="./embedding-domain-into-technology-blog.html">Embedding Domain Into Technology</a>
+	          </li>
+	          <li>
+	            <a title = "Tableau - A stepping stone to embark on a Data Scientist journey" href = "./stepping-stone-to-embark-data-scientist-journey.html">Tableau - A stepping stone to embark on a Data Scientist journey</a>
+	          </li>
+	        </ul>
+	
+	      </div>
+	      <!-- Grid column -->
+	
+	      <hr class="clearfix w-100 d-md-none">
+	
+	      <!-- Grid column -->
+	      <div class="col-md-2 mx-auto">
+	
+	        <!-- Links -->
+	        <h5 class="font-weight-bold  mt-3 mb-4">About Us</h5>
+	
+	        <ul class="list-unstyled footer-menu-item">
+	          <li>
+	            <a title = "About Dataastic" href="./about-dataastic.html">About Dataastic</a>
+	          </li>
+	          <li>
+	            <a title = "Contact - Dataastic" href="./contact-dataastic.html">Contact Us</a>
+	          </li>
+	         
+	        </ul>
+	
+	      </div>
+	      <!-- Grid column -->
+	
+	    </div>
+	    <!-- Grid row -->
+	
+	  </div>
+	  <!-- Footer Links -->
+	
+	  <!-- Copyright -->
+	  <div class="footer-copyright text-center py-2 dataastic-footer-copyright">&copy; <span id = "copyright-year-box"></span>  Copyright:
+	    <a title = "Dataastic Home" href="https://www.dataastic.com/"> www.dataastic.com</a>
+	  </div>
+	<script type="text/javascript">
+		var year = new Date().getFullYear();
+		
+		$("#copyright-year-box").html(year);
+		
+		$(function(){
+	    	var w = 5120;
+	    	var h = 1600;
+	    	
+	    	var divId = "header-div";
+	    	
+	    	if(!document.getElementById('header-div')){
+	    		h = 1350;
+	    		divId = "header-div-sm";
+	    	}
+	    	
+	    	console.log("Height : "+h);
+	    	var scrW = window.screen.width;
+	    	var percent = 0;
+	    	
+	    	var divH = 0;
+	    	
+	    	if(w > scrW){
+	    		percent = (scrW/w) * 100;	    		
+	    		divH = (h * percent)/100;	    		
+	    	}
+	    	
+	    	//var ch = 
+	    	//console.log(" Width : "+$("#header-div").css('width')+", Height : "+$("#header-div").css('height'));
+	    	//console.log("Screen Width : "+window.screen.width);
+	    	
+	    	$("#"+divId).css('height', (divH-4)+'px');
+	    });
+	
+	
+	</script>
+	  <!-- Copyright -->

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+  <title>Dataastic - Excelling Tableau</title>
+  <meta name="keywords"  content="Excelling Tableau - Blog, Dataastic Blogs - Excelling Tableau" />
+  <meta name="description" content="This page contains details of tableau blog - excelling tableau published at dataastic, Excelling Tableau, Tableau Blogs - Excelling Tableau">  
+  <meta name="author" content="rohit pandharpure">
+  <meta name="robots" content="index, follow" /> 
+  
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./style/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="./js/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="./js/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="./js/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="./style/dataastic-style.css">
+</head>
+<body>
+<div id = "top-bar-container" class = "fixed-top border-bottom-dark top-bar">
+	
+	<!-- <div class = "float-right" id = "menu-bar-container"></div> -->
+	<script> 
+	    $(function(){
+	      $("#top-bar-container").load("menu-bar.html"); 
+	    });
+    </script>
+	
+</div>	  
+	
+
+
+	
+	<div id = "header-div-sm" class="jumbotron text-center dataastic-page-banner"
+	style = "background-image: url('./images/excelling-tableau-banner.jpg'); ">
+	</div>
+	  
+	<div class="container">
+		
+	  <span class = "pr-3 row-header">
+	  		&quot;Excelling&quot; Tableau
+	  </span>
+	  
+	  <div class="row mt-3 mb-5 pb-3 dataastic-section border-0">
+	    <div class="dataastic-article pl-3">
+	      <!-- <h3><span class = "dataastic-article-header">Organizations & BI Tools</span></h3> -->
+	      
+	      <p class = "dataastic-article-contents">
+	      	Tableau is a tool for telling visual stories to get insight from data which helps actionable decision making fast and easy. Tableau’s mission is to make spreadsheets, databases, and other information sources simpler for the average person to use. Rendering data accurately with appropriate visual analytics reduces the time required to achieve understanding and make the right decisions.
+	      	</p>
+	      <p class = "dataastic-article-contents">
+			One of the prominent answers to ‘Why Tableau?’  is its easy accessibility and community support. With Tableau’s elementary knowledge, any individual can create a basic chart at no cost, minimal time and easily draw insights using the right data.
+		  </p>
+		  <h3 class = "teen-programme">
+	      	<h4>
+	      		<img title = "Evolution Of Reporting" alt="Evolution Of Reporting" src="./images/excelling-tableu-fig-1.1.png" class = "tableau-program-line-view-img img-center" style = "width:45%;">
+	      	</h4>	      
+	      </h3>
+	      
+	      <p class = "dataastic-article-contents pt-2 text-center">	      	
+	      	Figure 1.1
+	      </p>
+	      <p class = "dataastic-article-contents">
+	      	The above Bar chart ‘My Electricity Expenses’ is created in less than 5 minutes with a combination of few clicks and drag & drop actions.  Tableau connects and consumes data, adds filters, and visually guides you to make informed decisions about your electricity expenses incurred on a monthly basis.
+	      </p>
+	      <p class = "dataastic-article-contents">
+	      	The average monthly expenses incurred on electricity is 3,168 INR. Just eye-balling the above chart (Figure 1.1), it is evident that the consumption of electricity is more than the average from March to July, being summer. This is the power of Visualization and Tableau.
+	      </p>
+	      <p class = "dataastic-article-subject">
+	      	How to achieve this? 
+	      </p>
+	      <p class = "dataastic-article-contents">
+	      <b>Data:</b>  The first step in creating this chart is connecting and cleansing the data you want to explore. The data set used for this illustration is a credit card statement.
+	      	<ul class = "dataastic-article-list">
+	      		<li>
+	      			Download your credit card statement for the financial year on your local drive (or any other source of payment which was used for paying your electricity bill i.e., net banking statement, e- wallet statements etc.
+	      		</li>
+	      		<li>
+	      			The data can be in any format; delimiter, excel, text, PDF, etc. 
+	      		</li>
+	      		<li> 
+	      			On the Tableau data source window, connect to this credit card file stored on your local drive, drag the file into the canvas.
+	      		</li>
+				<li>
+					Now you will be able to preview the data to be consumed on the Data grid window and this becomes your table of Dimensions and measures in the Work sheet tab for the analysis.
+				</li>
+				<li>
+					On the Tableau data source window, make sure to click on the ‘Use Data Interpreter’ check box. This will automatically clean the data and format it for you by removing all the nulls and spaces.
+				</li>		 
+	      	</ul> 
+	      </p>
+	      <p class = "dataastic-article-contents">
+	      	<b>Filtering:</b>  The second step involves filtering of the data.
+	      	<ul class = "dataastic-article-list">
+	      		<li>
+	      			Click the ‘sheet tab’ to go to the new worksheet and begin your analysis. You will automatically see the credit card table you have already created in your earlier step. The data (credit card statement) has multiple transactions and we are interested in transactions pertaining to only electricity payment.
+	      		</li>
+	      		<li>
+	      			Making use of Tableau filter expression, drag and drop the Transaction field/column on to the Filter shelf.
+	      		</li>
+				<li>
+					Select using the appropriate key word which will only return the Electricity Payment data and filter out other transactions. (In back ground, a  select statement with filter on electricity expenses is fired.)
+				</li>						 
+	      	</ul>
+	      </p>
+	      <p class = "dataastic-article-contents">
+	      	<b>Selecting the Bar Chart:</b>  The third step is capturing the rows and columns on the canvas. 
+	      	<ul class = "dataastic-article-list">
+	      		<li>
+	      			Drag and drop the date/month and withdrawal column (Amount) respectively from the Data Pane.
+	      		</li>
+	      		<li>
+	      			Then select the Bar chart from the Show Me pane of Tableau.
+	      		</li>
+				<li>
+					Right click on the withdrawal amount pill (Row Shelf) and convert the measure to Average.
+				</li>
+				<li>
+					Right click on the Date pill (Column Shelf), click on month to increase the hierarchy from day to month field.
+				</li>						 
+	      	</ul>
+	      </p>
+	      <p class = "dataastic-article-contents">
+	      	<b>Average line &amp; Sorting: </b>  The fourth and final step is enabling Analysis on the chart.  
+	      	<ul class = "dataastic-article-list">
+	      		<li>
+	      			Click on the average line in the Analytics pane on the right, we will see a line on the chart with average value.
+	      		</li>
+	      		<li>
+	      			Click on the sort icon on the main menu above the canvas you will see the chart sorted from ascending to descending with reference to electricity expenses.
+	      		</li>										 
+	      	</ul>
+	      </p>
+	      
+	      <p class = "dataastic-article-subject">
+	      	What are the resources required to achieve this?
+	      </p>
+	      <p class = "dataastic-article-contents">
+	      	<b>Tableau Public:</b> Tableau Public is essentially a free version of Tableau visualization software. It allows you to use 95% of the Tableau software features. You can create visualizations by just connecting to CSV, Text and Excel documents. However, the only drawback is that Tableau Public does not allow you to save your workbooks locally and in this above scenario, there is no need to transfer the outcome to any device. Install Tableau Public with the help of the link below  https://public.tableau.com/en-us/s/download 
+	      </p>
+	      <p class = "dataastic-article-subject">
+	      	Machine Requirement  	
+			</p>
+		<p class = "dataastic-article-contents">	
+			
+			<ul class = "dataastic-article-list">
+				<li>Microsoft Windows 7 or newer (x64)</li>
+				<li>2 GB memory</li>
+				<li>1.5 GB minimum free disk space</li>
+			</ul>
+			
+	      </p>
+	      
+	      <p class = "dataastic-article-contents">
+	      	<b>Data Set:</b>  Download your bank statement or any transaction document through which you have made the payment of the electricity expenses for the year. It goes without saying, this is your personal data and only you will be privy to the outcome. 
+</br>That’s it! We just transformed data into information in 4 simple steps. The chart is ready with visual pointers. Now, I'll leave it up to you to decide what actions and decisions to take based on the information extracted by you with your credit card data.
+</br>To summarize, we can embed use of Tableau software at minimum cost in our day-to-day life. Calculators were replaced with Excel sheets a few decades back and I won’t be surprised if Tableau replaces Excel sheet in the long run because data analytics is here to stay and Tableau is more than an excel sheet in terms of drawing visual inferences.
+ 
+	      </p>
+	      <p class = "dataastic-article-contents">
+			“Excelling” Tableau indeed!
+	      </p>	      
+	      
+	    </div>
+	    </div>
+	      
+	  </div>
+	  
+	
+	<!-- Footer -->
+	<footer id = "footer-container" class="page-footer font-small footer-menu"></footer>	
+	<script> 
+	    $(function(){
+	      $("#footer-container").load("footer.html"); 
+	    });
+    </script> 
+	
+	<!-- Footer -->
+
+</body>
+</html>

@@ -163,7 +163,7 @@ body{
   		color: #2b4839;
   	}
   	.dataastic-article{
-  	
+		
   	
   	}
   	.dataastic-article-contents ul.dataastic-article-list{
@@ -204,6 +204,7 @@ body{
   		font-weight: bolder;
   		color: #737075;  	
   		margin-top: 10px;
+		text-align: left;
   	}
   
   	.dataastic-article .dataastic-article-contents{
